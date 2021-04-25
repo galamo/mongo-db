@@ -14,3 +14,34 @@ https://robomongo.org/download
 ## Insall Mongo
 1. run the MSI file
 2. Run Mongodb 
+
+
+
+## MongoDB docs:
+https://docs.mongodb.com/manual/tutorial/query-documents/
+
+
+
+## Subjects Learned
+- find
+- findOne
+- findAndDelete
+- Where : exact match, gt, gte,le,lte, and or
+
+- example:
+
+db.getCollection("cars").find({"$or": [{ "Cylinders": {"$gte": 2  } }, 
+     { "Acceleration": {"$gte": 16  } } , { "$and": [  { "Displacement":318 },
+         { "Horsepower":150 }  ] } ]  }); // select * from cars where Acceleration >= 8 
+
+
+
+- update ( with $set )
+
+
+## Homework
+
+1. Update - try to update many documents
+2. Update - try to update only 1 document
+3. try to use sort method and bring result sorted by Horsepower 
+4. How to bring specific field ( the second parameter in find)

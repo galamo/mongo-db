@@ -1,0 +1,11 @@
+{
+    "Name": "Mazda 6 ",
+    "Miles_per_Gallon": 20,
+    "Cylinders": 6,
+    "Displacement": 222,
+    "Horsepower": 160,
+    "Weight_in_lbs": 3200,
+    "Acceleration": 13,
+    "Year": "2021-01-01",
+    "Origin": "USA"
+}
