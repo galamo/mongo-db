@@ -10,3 +10,7 @@ https://studio3t.com/download/?utm_source=adwords&utm_medium=ppc&utm_term=mongo%
 
 https://robomongo.org/download
 
+
+## Insall Mongo
+1. run the MSI file
+2. Run Mongodb 
