@@ -1,3 +1,7 @@
+## mongo with docker
+- run docker-compose up
+
+
 ## Download Mongo
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
@@ -41,7 +45,7 @@ db.getCollection("cars").find({"$or": [{ "Cylinders": {"$gte": 2  } },
 
 ## Homework
 
-1. Update - try to update many documents
-2. Update - try to update only 1 document
-3. try to use sort method and bring result sorted by Horsepower 
-4. How to bring specific field ( the second parameter in find)
+1. Update - try to update many documents (UpdateMany)
+2. Update - try to update only 1 document (Update)
+3. try to use sort method and bring result sorted by Horsepower find().sort() <=> order by
+4. How to bring specific field ( the second parameter in find) <=> find({},{SECOND PARAMS})
